@@ -31,8 +31,16 @@ nav {
 
 .CartoonBirds {
   text-align: center;
+  float:left;
+  width: 31%;
+  padding: 15px;
 }
 
+.arrange::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .birdlist td {
   list-style-type: none;
   color: black;
@@ -72,4 +80,26 @@ h1 {
 
 h3 {
   font-size: 35px;
+}
+
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
 }
